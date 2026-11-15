@@ -1,0 +1,97 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. mkdir git-assignment
+   Creates a new project directory.
+
+2. cd git-assignment
+   Navigates into the project directory.
+
+3. touch index.html about.html
+   Creates two HTML files.
+
+4. git init -b main
+   Initializes a local Git repository with main as the default branch.
+
+5. git status
+   Displays the current state of the working directory and staging area.
+
+6. git add index.html about.html
+   Stages the HTML files for committing.
+
+7. git commit -m "Initial commit: Add website HTML files"
+   Records the initial project state.
+
+8. git diff
+   Displays unstaged changes in tracked files.
+
+9. git add index.html
+   Stages modifications made to index.html.
+
+10. git commit -m "Update homepage with welcome message"
+    Saves the homepage modification.
+
+11. git branch feature
+    Creates a new branch named feature.
+
+12. git switch feature
+    Switches to the feature branch.
+
+13. git add about.html
+    Stages modifications to about.html.
+
+14. git commit -m "Add website information on feature branch"
+    Records the feature branch changes.
+
+15. git switch main
+    Switches back to the main branch.
+
+16. git merge feature -m "Merge feature branch into main"
+    Merges feature branch changes into main.
+
+17. cat about.html
+    Displays the contents of about.html.
+
+18. git log --oneline
+    Displays commit history in compact format.
+
+19. git log --oneline --graph --all
+    Displays graphical commit history across all branches.
+
+20. touch .gitignore
+    Creates the Git ignore configuration file.
+
+21. mkdir temp
+    Creates a temporary directory for testing .gitignore.
+
+22. touch debug.log
+    Creates a sample log file for testing .gitignore.
+
+23. git add .gitignore
+    Stages the .gitignore file.
+
+24. git commit -m "Add gitignore for log files and temp directory"
+    Records the ignore configuration.
+
+25. git commit -m "Add Git learning paragraph"
+    Creates an additional commit for demonstrating undo.
+
+26. git revert HEAD
+    Reverses the latest commit by creating a new commit.
+
+27. git log --oneline -3
+    Displays the three most recent commits.
+
+28. git log --oneline -5
+    Displays the five most recent commits.
+
+29. git remote add origin https://github.com/Aryan-Bhendarkar/git-workflow-assignment.git
+    Connects the local repository to the GitHub remote repository.
+
+30. git remote -v
+    Displays configured remote repository URLs.
+
+31. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream.
+
+32. git push -u origin feature
+    Pushes the feature branch to GitHub and sets its upstream.
